@@ -1,0 +1,270 @@
+.box-menu {
+     background-image: url(../imagens/md-imgbk.jpg);
+     height: 200vh;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+.box-menu .sidebar-menu {
+     height: 100vh;
+     width: 200px;
+     background: rgba(0,0,0,0.2);
+     position: fixed;
+     overflow: hidden;
+     left: -200px;
+     transition: all 0.3s linear;
+     box-shadow: 3px 4px 6px #4d4d4d;
+}
+
+.box-menu .sidebar-titulo {
+     position: absolute;
+     height: 60px;
+     width: 100%;
+     box-shadow: 0px 2px 4px #4d4d4d;
+}
+
+.box-menu .sidebar-titulo a {
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     font-weight: 500;
+     text-decoration: none;
+     position: absolute;
+     left: 70px;
+     line-height: 60px;
+}
+
+.sidebar-menu .menu {
+     position: absolute;
+     top: 80px;
+     width: 100%;
+}
+
+.sidebar-menu .menu li {
+     margin: 10px;
+     padding: 14px 20px;
+     border-radius: 10px;
+     transition: 0.3s;
+} 
+
+.sidebar-menu .menu li:hover {
+     background-color: #ffffff1a;
+}
+
+.sidebar-menu .menu i {
+     color: rgb(255, 255, 255);
+     font-size: 28px;
+     padding-right: 8px;
+}
+
+.sidebar-menu .menu a {
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 20px;
+}
+
+.box-menu .menu-icon i {
+     color: rgb(255, 255, 255);
+     font-size: 30px;
+     font-weight: 700;
+     position:absolute;
+     left: 16px;
+     line-height: 60px;
+     cursor: pointer;
+}
+
+.sidebar-menu .btn-close i {
+     font-size: 25px;
+     line-height: 60px;
+     position: absolute;
+     left: 160px;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+}
+
+#check {
+     display: none;
+}
+
+#check:checked ~ .sidebar-menu {
+     left: 0;
+}
+
+.titulo {
+     position: absolute;
+     margin: 210px;
+     margin-top: 80px;
+     color: rgb(255, 255, 255);
+     font-size: 45px;
+     font-style: italic;
+}
+
+.titulo2 {
+     position: absolute;
+     margin: 210px;
+     margin-top: 140px;
+     color: rgb(255, 255, 255);
+     font-size: 30px;
+}
+
+.conteudo-site {
+     position: absolute;
+     margin-top: 600px;
+     margin: 200px;
+     font-size: 18px;
+     color: rgb(255, 255, 255);
+}
+
+.conteudo-site .whatsapp-link {
+     color: #0cd605;
+     font-size: 22px;
+}
+
+.conteudo-site .instagramlink {
+     color: #ca020f;
+     font-size: 22px;
+}
+.imagem-1{
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-left: 615px;
+     margin-top: 390px;
+}
+.imagem-1 img {
+     height: 260px;
+     width: 260px;
+}
+
+.imagem-2{
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-left: 215px;
+     margin-top: 390px;
+}
+.imagem-2 img {
+     height: 260px;
+     width: 260px;
+}
+
+.imagem-3{
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-left: 1015px ;
+     margin-top: 390px;
+}
+.imagem-3 img {
+     height: 260px;
+     width: 260px;
+}
+
+.imagem-4{
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-left: 215px;
+     margin-top: 750px;
+}
+
+.imagem-4 img {
+     height: 260px;
+     width: 260px;
+}
+
+.imagem-5{
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-left: 615px;
+     margin-top: 750px;
+}
+.imagem-5 img {
+     height: 260px;
+     width: 260px;
+}
+
+.imagem-6 {
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-left: 1015px ;
+     margin-top: 750px;
+}
+.imagem-6 img {
+     width: 260px;
+     height: 260px;
+}
+
+.imagem-7 {
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-top: 1100px;
+     margin-left: 215px;
+}
+.imagem-7 img {
+     width: 260px;
+     height: 260px;
+}
+
+.imagem-8 {
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-top: 1100px;
+     margin-left: 615px;
+}
+.imagem-8 img{
+     width: 260px;
+     height: 260px;
+}
+
+.imagem-9 {
+     border: solid #ffb101 4px;
+     position: absolute;
+     margin-top: 1100px;
+     margin-left: 1015px;
+}
+.imagem-9 img {
+     width: 260px;
+     height: 260px;
+}
+
+span {
+     color: #910505;
+}
+
+#loja {
+     color: #9B5F2D;
+}
+
+#instagram-link {
+     color: #ca020f;
+}
+
+#whatsapp-link {
+     color: #0cd605;
+}
+
+#envelope-link {
+     color: #007fc3;
+}
+
+#product {
+     color: #9B5F2D;
+}
+
+#inst-link {
+     color: #ca020f;
+}
+
+#wtt-link {
+     color: #0cd605;
+}
+
+#pedd {
+     color: #007fc3;
+}
+
+::-webkit-scrollbar {
+     width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+     width: 10px;
+     background-color: tomato;
+}
